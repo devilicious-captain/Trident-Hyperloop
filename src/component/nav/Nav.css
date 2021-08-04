@@ -1,0 +1,211 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  width: 100%;
+  align-items: center;
+  margin-top: 0px;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  background-color: #100f24;
+  height: 70px;
+}
+
+.nav-links {
+  display: flex;
+  width: 30.62%;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 0px;
+}
+.nav-logo-img {
+  width: 30%;
+}
+.link-button1 {
+  list-style: none;
+}
+.jZkBQk > .wrapper {
+  border-radius: 5px;
+}
+.nav-searchbar {
+  width: 40%;
+  font-weight: 500;
+  z-index: 999;
+}
+.nav-logo-image {
+  display: flex;
+  width: 180px;
+  height: 65px;
+}
+.nav-logo-image-mob {
+  display: none;
+}
+
+.nav-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#split-button-menu {
+  margin-top: -16px;
+}
+.sidebar {
+  display: flex;
+  height: 100vh;
+  width: 250px;
+  background-color: #100f24;
+  position: fixed;
+  overflow-y: scroll;
+  transition: 1s;
+  justify-content: center;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+.sidebar.active {
+  display: flex;
+  width: 250px;
+  transition: 1s;
+  top: 0;
+  box-shadow: 5px 5px 10px rgb(94, 92, 92);
+}
+.sidebar-links {
+  font-size: 30px;
+  color: #fff;
+  align-items: flex-start;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 8px;
+}
+.sidebar-links:hover {
+  background-color: #1a83ff;
+}
+.side-container {
+  display: block;
+  overflow-y: scroll;
+}
+.side-container::-webkit-scrollbar {
+  display: none;
+}
+.side-det {
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  font-size: 18px;
+  padding: 2px 8px 8px 16px;
+  text-decoration: none;
+  color: #fff;
+  height: 50px;
+}
+.side-det-avatar {
+  display: flex;
+  flex-direction: row;
+}
+
+.side-det a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 1px;
+  border-radius: 4px;
+}
+
+.side-det a:hover {
+  background-color: #1a83ff;
+  width: 100%;
+}
+
+.side-nav {
+  width: 100%;
+  justify-content: start;
+}
+.hamburger {
+  margin-right: 10px;
+  margin-left: 30px;
+}
+.avatar-img {
+  height: 60px;
+  padding: 5px;
+}
+
+@media screen and (max-width: 450px) {
+  .nav-logo-image {
+    display: none;
+  }
+  .nav-logo-image-mob {
+    display: flex;
+    width: 30px;
+  }
+  .nav-logo {
+    flex: 0.1;
+    padding-right: 5px;
+  }
+  .sidebar-nav {
+    flex: 0.1;
+    margin-left: -20px;
+  }
+  .sidebar.active {
+    margin-top: 65px;
+    height: 575px;
+  }
+  .sidebar-links {
+    padding: 5px;
+  }
+  .nav-country {
+    display: none;
+  }
+  .nav-searchbar {
+    flex: 1;
+  }
+  .nav-links {
+    flex: 0.1;
+    padding-left: 5px;
+  }
+  .frjscc > input {
+    width: 90%;
+    padding: 0px;
+    font-size: 10px;
+  }
+  .eOPJCx {
+    margin: 0 0 0 2px;
+  }
+  .nav-avatar {
+    font-size: 12px;
+    flex: 0.6;
+    padding-right: 5px;
+  }
+  .avatar-img {
+    height: 45px;
+  }
+  .avatar-name {
+    display: none;
+  }
+  .nav-signout {
+    font-size: 5px;
+    flex: 0.4;
+    margin-right: 10px;
+    display: none;
+  }
+  .nav-signout > .MuiButton-root {
+    padding: 3px 8px;
+  }
+  .nav-login {
+    font-size: 15px;
+    flex: 0.4;
+    display: none;
+  }
+  .nav-signup {
+    flex: 0.6;
+    display: none;
+  }
+  .MuiButton-label {
+    font-size: 10px;
+  }
+  .side-det-avatar {
+    padding-left: 10px;
+  }
+}

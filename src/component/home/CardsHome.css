@@ -1,0 +1,106 @@
+.Card-container {
+  display: flex;
+}
+.Card-container::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  width: 250px;
+  margin: 5px 20px;
+}
+.card:hover {
+  box-shadow: 0 8px 40px 2px rgba(0, 0, 0, 0.3);
+}
+.MuiTypography--heading {
+  margin: 5px;
+}
+.media {
+  width: 250px;
+  height: 150px;
+}
+.content {
+  text-align: left;
+  padding-bottom: 15px !important;
+}
+
+.heading {
+  font-weight: 900;
+}
+.subheading {
+  line-height: 0 !important;
+}
+.MuiCardContent-root.content {
+  margin: 0px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card-view {
+  background-color: #1a83ff;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+}
+.card-wishlist {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+.card-button {
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: normal;
+}
+.heart {
+  color: #ff616d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heart-active {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 450px) {
+  .card {
+    width: 170px;
+    margin: 10px;
+  }
+  .media {
+    width: 170px;
+    height: 100px;
+  }
+  .heart {
+    font-size: 30px;
+    text-align: right;
+  }
+  .MuiTypography--heading {
+    font-size: 15px !important;
+    margin-left: 0px !important;
+  }
+  .MuiTypography--subheading {
+    padding-top: 0px !important;
+    font-size: 10px !important;
+  }
+  #btn-viewdet {
+    text-align: center;
+    width: 100px !important;
+  }
+  .card-button {
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .content {
+    padding: 5px !important;
+  }
+}

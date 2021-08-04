@@ -1,0 +1,239 @@
+.booking {
+  padding-top: 75px;
+
+  color: black;
+}
+.Carousal {
+  margin: 1em 5% 30px 5%;
+  width: 90%;
+  display: flex;
+  height: 350px;
+  border: 1px solid blue;
+}
+.book-container {
+  margin: 0px 5% 10px 5%;
+  display: flex;
+  font-family: "Bree Serif", serif;
+  /* font-weight: 400; */
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+}
+.booking-name {
+  display: flex;
+  flex: 0.4;
+  /* font-family: Bree serif; */
+  border: 1px solid blue;
+}
+.booking-number {
+  display: flex;
+  flex: 0.3;
+  border: 1px solid blue;
+}
+.booking-ratios {
+  display: flex;
+  flex: 0.3;
+  border: 1px solid blue;
+}
+.booking-price {
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0 10% 30px 10%;
+}
+.price {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  border: 1px solid blue;
+}
+.price-button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex: 0.5;
+  border: 1px solid blue;
+  align-items: center;
+}
+.book-show {
+  display: none;
+}
+.book-more {
+  display: none;
+}
+.containerblock {
+  display: flex;
+  justify-content: center;
+}
+.booking-root {
+  display: flex;
+  border-bottom: none;
+  justify-content: center;
+  width: 80%;
+}
+.booking-details {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.booking-cover {
+  width: 300px;
+}
+.booking-container {
+  display: flex;
+  width: 100%;
+}
+.bookings-price {
+  display: flex;
+  flex: 0.3;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px;
+}
+.booking-rating {
+  margin: 15px 0 10px 0;
+  display: flex;
+}
+.booking-check {
+  display: flex;
+  justify-content: space-between;
+}
+.booking-checkin {
+  display: flex;
+  flex-direction: column;
+  font-family: "Bree Serif";
+}
+.booking-datetime {
+  margin: 10px;
+}
+.booking-review {
+  margin: 5px;
+  display: flex;
+  font-family: "Bree Serif";
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+/* .booking-checkcard {
+  display: flex;
+  border-top: none;
+  margin: 0 15%;
+  width: 70%;
+  margin-bottom: 10px;
+} */
+.bookings-discount {
+  font-size: 22px;
+  color: red;
+  font-family: Caveat;
+}
+#booked {
+  display: flex;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-family: "Bree Serif";
+}
+#booked-date {
+  padding-left: 5px;
+  color: #0e0992;
+}
+.check-head {
+  color: black;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.booked-day {
+  margin: 5px;
+  border: 2px solid blue;
+  padding: 5px;
+}
+.booked-time {
+  margin: 5px;
+  border: 2px solid blue;
+  padding: 5px;
+}
+.book-cardset {
+  display: flex;
+}
+
+@media screen and (max-width: 450px) {
+  .booking-price {
+    margin: 0px !important;
+  }
+  .booking-root {
+    width: 95%;
+    margin: 10px 0px;
+  }
+  .booking-cover {
+    width: 200px;
+    height: 120px;
+  }
+  .booking-rating {
+    margin: 5px 0 0 0;
+    font-size: 7px;
+  }
+  .bookings-discount {
+    font-size: 7px;
+  }
+  .booking-check {
+    font-size: 10px;
+    flex-direction: column;
+  }
+  .book-cardset {
+    margin-bottom: 5px;
+  }
+  #booked {
+    font-size: 7px;
+    font-weight: 300;
+    margin-bottom: 2px;
+  }
+  .check-head {
+    font-size: 5px;
+  }
+  .booking-datetime {
+    font-size: 4px;
+    padding-top: 3px;
+    margin: 0px;
+    /* text-align: left; */
+  }
+  .booking-review {
+    /* padding-left: 10px; */
+    font-size: 10px;
+    margin: 0px;
+  }
+  .stars {
+    font-size: 7px;
+    text-align: center;
+  }
+  .stars > span {
+    font-size: 10px;
+    margin: 1px !important;
+  }
+  .booked-time {
+    font-size: 5px;
+    margin-left: 1px;
+    padding: 1px;
+    border: 0.1px solid blue;
+  }
+  .booked-day {
+    font-size: 5px;
+    margin: 0px;
+    padding: 1px;
+    border: 0.1px solid blue;
+  }
+  .wishlist-details-title {
+    text-align: left;
+  }
+  .wishlist-star {
+    font-size: 5px;
+  }
+  .wishlist-rating-block {
+    font-size: 5px;
+    /* padding: 1px !important; */
+  }
+  #book-price {
+    font-weight: 500;
+  }
+}

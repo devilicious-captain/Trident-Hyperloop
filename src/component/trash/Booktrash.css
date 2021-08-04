@@ -1,0 +1,414 @@
+.booktrash {
+  margin-top: 65px;
+  color: black;
+  font-family: "Bree Serif", serif;
+  background-color: rgba(255, 255, 255, 0.932);
+}
+.side {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+.booktrash-container {
+  margin: 30px 20px 30px 20px;
+
+  /* border: 1px solid black; */
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.booktrash-title {
+  /* border: 1px solid green; */
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  flex: 0.8;
+  align-items: flex-start;
+}
+.title-title {
+  font-size: 30px;
+  font-weight: 1000;
+}
+.title-sidetitle {
+  font-size: 20px;
+  color: #423f3e;
+}
+.booktrash-patch {
+  color: green;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+.booktrash-patch span {
+  padding-right: 10px;
+}
+.booktrash-price {
+  display: flex;
+  flex: 0.2;
+  align-items: center;
+  justify-content: center;
+}
+.booktrash-price Button {
+  width: 100%;
+}
+.booking-price {
+  font-weight: 1000;
+  font-size: 25px;
+  width: 200px;
+  display: flex;
+  margin: 0px 10px;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  align-items: center;
+  justify-content: center;
+}
+.booking-discount {
+  font-size: 15px;
+  font-family: Caveat;
+}
+.booking-discount span {
+  margin-right: 10px;
+}
+/* .booking-button {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin-right: 10px;
+  border: 1px solid blue;
+  flex: 0.1;
+} */
+.booktrash-key {
+  display: flex;
+  margin: 10px 20px;
+}
+.booktrash-carousel {
+  display: flex;
+  flex: 0.5;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+  /* border: 1px solid black; */
+}
+.booktrash-keypoints {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+}
+.points-container {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid blue; */
+}
+.booktrash-points {
+  display: flex;
+  flex: 0.5;
+  flex-direction: row;
+  margin: 10px;
+}
+.booktrash-main {
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 0.5;
+  /* border: 1px solid red; */
+}
+.booktrash-main span {
+  font-size: 20px;
+  color: #423f3e;
+  display: flex;
+}
+.booktrash-around {
+  display: flex;
+  font-size: 25px;
+  /* border: 1px solid blue; */
+  align-items: flex-start;
+  flex-direction: column;
+  flex: 0.5;
+}
+.booktrash-around li {
+  font-size: 20px;
+  color: #423f3e;
+}
+.booktrash-pricetag {
+  margin: 20px;
+}
+input[type="radio"] {
+  display: none;
+}
+.booktrash-rat {
+  display: flex;
+  margin: 20px 30px;
+}
+.booktrash-description {
+  margin: 30px 20px 10px 20px;
+  /* width: ; */
+  /* display: flex; */
+  text-align: left;
+  flex: 0.5;
+}
+.booktrash-end {
+  display: flex;
+  align-items: flex-start;
+  /* height: 300px; */
+  /* margin-bottom: 10px; */
+  flex-direction: row;
+  /* border: 1px solid white; */
+}
+.rating {
+  /* border: 1px solid black; */
+  /* height: 300px; */
+  display: flex;
+  margin-bottom: 3em;
+  flex: 0.5;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.star {
+  size: 100px;
+  cursor: pointer;
+}
+.star-progress {
+  display: flex;
+  /* flex: 0.5; */
+  flex-direction: column;
+}
+progress[value]::-webkit-progress-bar {
+  border-radius: 24px;
+  background-image: -webkit-linear-gradient(
+      -45deg,
+      transparent 33%,
+      rgba(0, 0, 0, 0.1) 33%,
+      rgba(0, 0, 0, 0.1) 66%
+    ),
+    -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)),
+    -webkit-linear-gradient(left, #e4e5e9, #e4e5e9);
+}
+progress[value]::-webkit-progress-value {
+  background-color: #eee;
+  background-image: -webkit-linear-gradient(
+      -45deg,
+      transparent 33%,
+      /* rgba(0, 0, 0, 0.1) 33%, */ rgba(0, 0, 0, 0.1) 66%
+    ),
+    -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.25)),
+    -webkit-linear-gradient(left, #ffc107, rgb(247, 115, 8));
+}
+.show-click {
+  color: grey;
+  cursor: pointer;
+  font-size: 15px;
+}
+.reviews {
+  display: flex;
+  /* border: 1px solid red; */
+  margin-left: 30px;
+  /* margin-top: 30px; */
+  flex: 0.5;
+  overflow-y: scroll;
+  align-items: flex-start;
+  text-align: left;
+  height: 250px;
+  width: 200px;
+  flex-direction: column;
+}
+.review-list {
+  margin: 30px 30px -20px 30px;
+  /* width: 350px; */
+
+  /* border: 1px solid black; */
+}
+.review-profile {
+  display: flex;
+  align-items: center;
+}
+.review-comment {
+  font-size: 15px;
+  margin-left: 15px;
+  color: rgb(80, 73, 73);
+}
+.reviews::-webkit-scrollbar {
+  display: none;
+}
+.review-form {
+  display: flex;
+  flex: 0.5;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: 900;
+  margin: 0 30px 60px 30px;
+  /* border: 1px solid black; */
+}
+.review-input {
+  display: flex;
+  margin: 20px 30px 0 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Paid-notify {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  align-items: center;
+  font-family: "Bree Serif";
+  color: rgb(73, 70, 70);
+}
+.tick-notify {
+  padding: 10px;
+}
+.modalCheck {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+.name {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 13%;
+  padding-bottom: 10px;
+}
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pricetag {
+  font-size: 35px;
+}
+
+@media screen and (max-width: 450px) {
+  .booktrash {
+    width: 100%;
+  }
+  .booktrash-container {
+    margin: 0;
+    width: 100%;
+    font-size: 10px;
+  }
+  .booktrash-title {
+    font-size: 10px;
+    width: 200px;
+  }
+  .title-title {
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .title-sidetitle {
+    font-size: 10px;
+  }
+  .booktrash-patch {
+    flex-direction: column;
+    font-size: 7px;
+    width: 150px;
+    align-items: flex-start;
+  }
+  .booking-price {
+    font-size: 15px;
+    width: 90%;
+    margin-left: -30px;
+    /* border: 1px solid black; */
+  }
+  .booking-discount {
+    font-size: 12px;
+    color: red;
+  }
+  .booking-price > Button {
+    font-size: 12px;
+  }
+  .booktrash-key {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 0;
+  }
+  .booktrash-main {
+    font-size: 15px;
+  }
+  .booktrash-main > span {
+    font-size: 10px;
+  }
+  .booktrash-around {
+    font-size: 15px;
+  }
+  .booktrash-around > li {
+    font-size: 10px;
+  }
+  .booktrash-carousel {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-top: 30px;
+    margin-left: 0;
+  }
+  .booktrash-rat {
+    flex-direction: column;
+  }
+  .reviews {
+    display: flex;
+    width: 80%;
+  }
+  .booktrash-end {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .side {
+    border: 0px;
+  }
+  .modalCheck {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-around;
+  }
+  .review-form {
+    margin: 30px 0px;
+    justify-content: center;
+    font-size: 20px;
+    width: 80%;
+  }
+  .booktrash-points {
+    width: 90%;
+  }
+  .booktrash-pricetag {
+    padding: 0;
+    margin: 0px;
+  }
+  .pricetag {
+    font-size: 25px;
+  }
+  .booktrash-description > h1 {
+    font-size: 18px;
+  }
+  .booktrash-description > span {
+    font-size: 15px;
+  }
+  .booktrash-keypoints {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .star-rate > h1 {
+    font-size: 18px;
+  }
+  .star-rate > label {
+    font-size: 5px;
+  }
+  .stars {
+    font-size: 20px !important;
+  }
+  #booking-modal {
+    width: 90% !important;
+  }
+  #modal-head {
+    font-size: 20px;
+  }
+  .name {
+    justify-content: center;
+  }
+}

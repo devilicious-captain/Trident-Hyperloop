@@ -1,0 +1,38 @@
+.hotel {
+  padding-top: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.Cards-home {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  /* border: 1px solid blue; */
+
+  justify-content: center;
+  /* padding: 0 20%; */
+}
+.hoteltype-card {
+  /* border: 1px solid red; */
+  padding: 10px 0;
+}
+.hoteltype-head {
+  font-family: "Bree Serif";
+  text-align: left;
+  font-weight: 400;
+  width: 100%;
+  padding-left: 10%;
+}
+@media screen and (max-width: 450px) {
+  .hoteltype-head {
+    font-size: 10px !important;
+    font-family: Serif;
+    font-weight: 200;
+  }
+  .Cards-home {
+    width: 90%;
+  }
+}

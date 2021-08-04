@@ -1,0 +1,14 @@
+.Card-home {
+  display: flex;
+  overflow-x: scroll;
+}
+.underline {
+  border-top: 2px solid grey;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.Card-home::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,158 @@
+.wishlist {
+  margin-top: 65px;
+  margin-bottom: 1px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+.wishlist-root {
+  display: flex;
+  border: 1px solid black;
+  margin: 20px 0;
+  width: 70%;
+}
+.wishlist-details {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.wishlist-details-title {
+  font-weight: 600;
+  font-family: "Bree Serif";
+  color: black;
+  font-size: 30px;
+}
+.wishlist-details-subtitle {
+  text-align: left;
+  font-size: 18px;
+  display: flex;
+  font-family: "Bree Serif";
+  justify-content: flex-start;
+  color: gray;
+  font-weight: 300;
+}
+.wishlist-cover {
+  width: 300px;
+  height: 200px;
+}
+.wishlist-container {
+  display: flex;
+  width: 100%;
+}
+.booking-price {
+  display: flex;
+  flex: 0.3;
+  align-items: center;
+  justify-content: center;
+}
+.bookingprice {
+  font-weight: 1000;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bree Serif";
+}
+.wishlist-rating {
+  margin: 15px 0;
+  display: flex;
+}
+.wishlist-star {
+  text-align: left;
+}
+.wishlist-rating-block {
+  background-color: blue;
+  border-radius: 4px;
+  color: white;
+  margin-right: 5px;
+  padding: 2px;
+  text-align: left;
+}
+.wishlist-bookingprice-caption {
+  font-size: 18px;
+  color: gray;
+  font-weight: 10;
+  font-family: cursive;
+}
+#bookbtn {
+  border-radius: 24px;
+  width: 150px;
+}
+.wishlist-term {
+  font-size: 10px;
+  color: gray;
+  font-weight: 10;
+  font-family: cursive;
+  margin-bottom: 15px;
+}
+.wishlist-booking-discount {
+  font-size: 15px;
+  font-family: Caveat;
+}
+
+@media screen and (max-width: 450px) {
+  #wish-head {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  .wishlist-root {
+    width: 90%;
+    margin: 10px 0px;
+  }
+  #wish-details {
+    padding: 5px;
+  }
+  .wishlist-details-title {
+    font-size: 10px;
+  }
+  .wishlist-details-subtitle {
+    font-size: 7px;
+  }
+  .wishlist-cover {
+    width: 120px;
+    height: 90px;
+  }
+  .wishlist-star > label {
+    size: 5px;
+  }
+  .bookingprice {
+    font-size: 10px;
+  }
+  .booking-price {
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .wishlist-bookingprice-caption {
+    font-size: 7px;
+  }
+  .wishlist-rating {
+    margin: 5px 0 0 0;
+    font-size: 7px;
+  }
+  .MuiButton-label {
+    font-size: 7px;
+  }
+  #bookbtn {
+    width: 70px;
+    font-size: 5px;
+    padding: 3px 8px;
+  }
+  .wishlist-term {
+    font-size: 5px;
+    margin-bottom: 5px;
+  }
+  .wishlist-booking-discount {
+    font-size: 7px;
+  }
+  .wishlist-star > label {
+    font-size: 10px;
+  }
+}
