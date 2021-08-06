@@ -6,7 +6,7 @@ import Home from "./component/home/Home";
 import Login from "./component/signin/Login";
 import SignUp from "./component/signup/Signup";
 import Footer from "./component/footer/Footer";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Booking from "./component/booking/Booking";
 import Wishlist from "./component/wishlist/Wishlist";
 import Booktrash from "./component/trash/Booktrash";
