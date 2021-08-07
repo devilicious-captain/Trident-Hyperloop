@@ -59,15 +59,15 @@ function AboutUs() {
             learning from life.
           </p>
           <div className="about-social">
-            <Link to="https://github.com/devilicious-captain">
+            <a href="https://github.com/devilicious-captain">
               <GitHub id="GitHub-about" />
-            </Link>
-            <Link to="https://www.instagram.com/devilicious_captain/">
+            </a>
+            <a href="https://www.instagram.com/devilicious_captain/">
               <Instagram id="instagram-about" />
-            </Link>
-            <Link to="https://www.linkedin.com/in/sauravpandey-1012/">
+            </a>
+            <a href="https://www.linkedin.com/in/sauravpandey-1012/">
               <LinkedIn id="linkedin-about" />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="aboutme-pic">
